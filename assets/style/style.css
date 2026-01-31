@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: peyda;
+    src: url("../Peyda.font/Peyda/01-Standard/WebFonts/fonts/woff2/PeydaWeb-Medium.woff2") format("woff2");
+    src: url("../Peyda.font/Peyda/01-Standard/WebFonts/fonts/woff/PeydaWeb-Medium.woff") format("woff");
+    src: url("../Peyda.font/Peyda/01-Standard/WebFonts/fonts/woff2/PeydaWeb-Medium.woff2") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: peyda, sans-serif !important;
+}
+
+
+
+body{
+    overflow-x: hidden;
+    background-color: #000 !important;
+    color: white;
+}
+
+.neon-text {
+    color: #39ff14;
+    text-shadow:
+            0 0 5px #39ff14,
+            0 0 10px #39ff14,
+            0 0 20px #39ff14,
+            0 0 40px #00ff88;
+    font-size: 22px;
+}
+
+
+
+header{
+    box-shadow: rgba(248, 247, 247, 0.1) 0px 1px 2px 0px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    width: 90%;
+    z-index: 999999;
+}
+
+
+.cs-bg{
+    border: 1px solid rgba(238, 238, 238, 0.64);
+    transition: 0.2s;
+}
+
+.cs-bg-2{
+    box-shadow: rgba(248, 247, 247, 0.1) 0px 1px 2px 0px;
+    transition: 0.2s;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    height: min-content;
+
+}
+
+.cs-bg-active{
+    background: rgba(255, 255, 255, 0.42) !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: rgba(248, 247, 247, 0.1) 0px 1px 2px 0px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-size: 13px;
+}
+
+aside{
+    color: white;
+    width: max-content;
+    font-size: 13px;
+}
+
+
+.my-m-main{
+    background-color: #000 !important;
+    color: white;
+    max-width: 550px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.my-m-main::-webkit-scrollbar {
+    display: none;
+}
+
+.cs-fs-13{
+    font-size: 13px;
+}
+
+.w-for-pr-img{
+    width: 100px;
+    object-fit: contain;
+}
+
+.py-7 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important
+}
