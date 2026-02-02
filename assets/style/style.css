@@ -57,10 +57,11 @@ header{
 }
 
 .cs-bg-active{
-    background: rgba(255, 255, 255, 0.42) !important;
+    background: rgb(255, 255, 255) !important;
     backdrop-filter: blur(10px) !important;
     box-shadow: rgba(248, 247, 247, 0.1) 0px 1px 2px 0px;
     border: 1px solid rgba(255, 255, 255, 0);
+    color: black;
     font-size: 13px;
 }
 
